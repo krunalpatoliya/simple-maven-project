@@ -1,0 +1,25 @@
+From f80129e813c96359ac347cfac5e5c7ccfdb1a356 Mon Sep 17 00:00:00 2001
+From: krunalpatoliya <krunal@grid-scape.com>
+Date: Fri, 23 Nov 2018 17:56:23 +0530
+Subject: [PATCH] this is testing commit
+
+---
+ .../com/testing/DemoUI/controller/TestRestController.java     | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/main/java/com/testing/DemoUI/controller/TestRestController.java b/src/main/java/com/testing/DemoUI/controller/TestRestController.java
+index 76c5340..fed97bb 100644
+--- a/src/main/java/com/testing/DemoUI/controller/TestRestController.java
++++ b/src/main/java/com/testing/DemoUI/controller/TestRestController.java
+@@ -12,4 +12,8 @@ public class TestRestController {
+ 	public String getHelloWorld() {
+ 		return "HelloWorld...!";
+ 	}
++	@RequestMapping(value = "/gethello", method = RequestMethod.GET)	
++	public String getHello() {
++		return "HelloWorld...!";
++	}
+ }
+-- 
+2.18.0.windows.1
+
