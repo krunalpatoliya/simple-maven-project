@@ -16,4 +16,8 @@ public class TestRestController {
 	public String getHello() {
 		return "HelloWorld...!";
 	}
+	@RequestMapping(value = "/getRead", method = RequestMethod.GET)	
+	public String getRead() {
+		return "Hi Read!";
+	}
 }
