@@ -10,7 +10,6 @@ public class DemoUiApplication extends SpringBootServletInitializer{
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		System.out.println("hi....");
 		return application.sources(DemoUiApplication.class);
 	}
 	public static void main(String[] args) {
