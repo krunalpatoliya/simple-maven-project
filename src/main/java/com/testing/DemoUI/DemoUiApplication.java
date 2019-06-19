@@ -12,6 +12,7 @@ public class DemoUiApplication extends SpringBootServletInitializer{
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		System.out.println("hi....");
 		System.out.println("helloWorld!....");
+		System.out.println("helloWorld!....");
 		return application.sources(DemoUiApplication.class);
 	}
 	public static void main(String[] args) {
